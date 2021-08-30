@@ -1,7 +1,7 @@
 --
 CC1 = "                                <2021> - kaicycle, inc"
-other_Script = "https://smlkaiellis08.github.io/theme/first.lua"
-AutoRob_Script = "https://smlkaiellis08.github.io/theme/second.lua"
+other_Script = "https://smlkaiellis08.github.io/theme/Scripts/first.lua"
+AutoRob_Script = "https://smlkaiellis08.github.io/theme/Scripts/second.lua"
 print(CC1)
 print("                                  --Gui Code Links--")
 print("AutoRob Script: ", AutoRob_Script)

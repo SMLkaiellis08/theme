@@ -1,4 +1,5 @@
 --
+-- Values
 CC1 = "                                <2021> - kaicycle, inc"
 other_Script = "https://smlkaiellis08.github.io/theme/Scripts/first.lua"
 AutoRob_Script = "https://smlkaiellis08.github.io/theme/Scripts/second.lua"
@@ -6,6 +7,7 @@ print(CC1)
 print("                                  --Gui Code Links--")
 print("AutoRob Script: ", AutoRob_Script)
 print("Other Gui Script: ", other_Script)
+-- Values
 
 -- loaded?
 if auto_rob_loaded == true then
@@ -13,18 +15,20 @@ if auto_rob_loaded == true then
     print("Auto Rob Script is Enabled")
 end
 
+
 if other_gui_loaded == true then
     -- game.StarterGui:SetCore("SendNotification", {Title="Magma-mc.net"; Text="Other Gui Script is Enabled"; Duration=5;})
     print("Other Gui Script is Enabled")
 end
 
-
 -- 
 -- First.lua
 -- 
+
 if other_gui_loaded == true then
     game.StarterGui:SetCore("SendNotification", {Title="Magma-mc.net"; Text="Other Gui Script is Enabled"; Duration=5;})
 else 
+    
     if other_gui == true then
 
         other_gui_loaded = true
@@ -44,9 +48,11 @@ end
 -- 
 -- Second.lua
 -- 
+
 if auto_rob_loaded == true then
     game.StarterGui:SetCore("SendNotification", {Title="Magma-mc.net"; Text="Auto Rob Script is Enabled"; Duration=5;})
 else
+    
     if auto_rob == true then
         auto_rob_loaded = true
         loadstring(game:HttpGet(AutoRob_Script))();

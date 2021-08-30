@@ -1,9 +1,9 @@
 --
-CC1 = "                                 <2021> - kaicycle, inc"
-other_Script = "https://raw.githubusercontent.com/opBandwidth/Magma-Core/main/Jailbreak/Main.lua"
-AutoRob_Script = "https://raw.githubusercontent.com/wawsdasdacx/ohascriptnrrewading/main/jbsaxcriptidk1"
+CC1 = "                              <2021> - kaicycle, inc"
+other_Script = "https://smlkaiellis08.github.io/theme/first.lua"
+AutoRob_Script = "https://smlkaiellis08.github.io/theme/second.lua"
 print(CC1)
-print("                                   --Gui Code Links--")
+print("                                --Gui Code Links--")
 print("AutoRob Script: ", AutoRob_Script)
 print("Other Gui Script: ", other_Script)
 

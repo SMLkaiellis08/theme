@@ -1,6 +1,3 @@
--- ! I do not Own AnyPart of this script this is 2 scripts for one import !
--- Compiled Lua
-
 -- First.lua
 if other == "true" then
   loadstring(game:HttpGet("https://raw.githubusercontent.com/opBandwidth/Magma-Core/main/Jailbreak/Main.lua"))();
